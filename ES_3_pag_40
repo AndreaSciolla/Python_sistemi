@@ -1,0 +1,23 @@
+def main():
+
+    op = int(input("quale operazione vuoi eseguire? 0=somma 1=sottrazione 2=moltiplicazione 3=divisione"))
+    num1 = float(input("inserisci il primo numero: "))
+    num2 = float(input("inserisci il secondo numero: "))
+
+    if op == 0:
+        ris = num1 + num2
+    elif op == 1:
+        ris = num1 - num2
+    elif op == 2:
+        ris = num1 * num2
+    elif op == 3:
+        if num2 == 0:
+            print("non si puo dividere per zero")
+        else:
+            ris = num1 / num2
+    else:
+        print("operazione inserita non valida")
+    if(op == 0 or op == 1 or op == 2 or op==3):
+        print(f"il risultato dell'operazione è: {ris}")
+if __name__ == "__main__":
+    main()
