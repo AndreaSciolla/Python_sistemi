@@ -5,7 +5,10 @@ import math
 n = int(input("inserisci il numero di punte: "))
 finestra = turtle.Screen()
 alice = turtle.Turtle()
-lato = 50
+lato = 200
+
+alice.color('red', 'blue')
+alice.begin_fill()
 
 if n != 0 and n !=1:
     if(n%2)!=0:
@@ -30,4 +33,5 @@ if n != 0 and n !=1:
 else:
     print("il numero di punte inserito non è valido")
 
+alice.end_fill()
 finestra.mainloop()
