@@ -11,6 +11,7 @@ alice.begin_fill()
 for i in range(0, num):
     alice.left(gradi)
     alice.forward(lato)
+    
 alice.end_fill() 
 
 finestra.mainloop()
