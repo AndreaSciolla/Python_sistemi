@@ -18,3 +18,5 @@ voti = [random.randint(2, 10) for _ in range(10)] #crea una lista di numeri casu
 print(voti)
 voti_insuff = [voto for voto in voti if(voto < 6)]
 print(voti_insuff)
+
+#in python le liste sono delle condizioni
