@@ -17,6 +17,11 @@ dizionario["nome"] = "Luca"
 
 print(dizionario)
 
+# se si vuole ciclare sia su chiave che su collegamenti si usa .itens()
+'''esempio:
+    for chiave, valori in diz.items():
+'''
+
 #cilcare su un dizionario
 
 for chiave in dizionario:  #x cicla sulle chiavi
